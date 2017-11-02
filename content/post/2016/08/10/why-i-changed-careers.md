@@ -71,3 +71,11 @@ for the steps I took to make this all happen.
   * <a href="http://learnitmyway.com/2017/01/31/how-to-network-as-a-software-developer/" target="_blank">How to network as a software developer</a>
   * <a href="http://learnitmyway.com/2016/11/11/learning-material-software-development/" target="_blank">Learning material &#8211; software development</a>
   * <a href="http://learnitmyway.com/2017/02/18/how-to-write-a-cv-as-a-software-developer/" target="_blank">How to write a CV as a software developer</a>
+ 
+ <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
+     <a class="a2a_button_twitter"></a>
+     <a class="a2a_button_facebook"></a>
+     <a class="a2a_button_linkedin"></a>
+ </div>
+ 
+ <script async src="https://static.addtoany.com/menu/page.js"></script>
