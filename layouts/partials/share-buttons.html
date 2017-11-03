@@ -5,6 +5,7 @@
 </a>
 
 <!--https://developers.facebook.com/docs/plugins/like-button/-->
+{{ .URL | absURL }}
 <div id="fb-root"></div>
 <div class="fb-like"
      data-href="{{ .URL | absURL }}"
@@ -14,12 +15,3 @@
      data-show-faces="false"
      data-share="true">
 </div>
-
-<div>
-  {{ "dist/main.css" | absURL }} <br />
-  {{ .URL | absURL }} <br />
-  {{ "js/share-buttons.js" | absURL }} <br />
-  {{ "dist/app.bundle.js" | absURL }} <br />
-</div>
-
-
