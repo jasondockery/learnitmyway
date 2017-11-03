@@ -16,7 +16,7 @@ window.twttr = (function (d, s, id) {
     return t;
 }(document, "script", "twitter-wjs"));
 
-// https://developers.facebook.com/docs/plugins/share-button/
+// https://developers.facebook.com/docs/plugins/like-button/
 (function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
