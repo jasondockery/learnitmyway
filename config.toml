@@ -13,4 +13,5 @@ enableRobotsTXT = true
   author = "Developer Davo"
   background_color_class = "bg-dark-blue"
   twitter = "https://twitter.com/DeveloperDavo"
+  twitterHandle = "@DeveloperDavo"
   github = "https://github.com/DeveloperDavo"
