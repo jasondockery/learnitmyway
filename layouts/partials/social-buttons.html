@@ -2,7 +2,7 @@
 <div>
   <!--https://developers.facebook.com/docs/plugins/like-button/-->
   <div id="fb-buttons" class="fb-like di v-top"
-       data-href="https://www.learnitmyway.com{{ .URL }}"
+       data-href="{{ .URL | absURL }}"
        data-layout="button_count"
        data-action="like"
        data-size="large"
