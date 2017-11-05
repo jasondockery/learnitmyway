@@ -17,8 +17,6 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-    <meta property="og:image" content="favicon.ico"/>
-
     <link href='{{ "dist/main.css" | absURL }}' rel='stylesheet' type="text/css" />
     <link href='{{ "css/styles.css" | absURL }}' rel='stylesheet' type="text/css" />
     <link href='{{ "css/social-buttons.css" | absURL }}' rel='stylesheet' type="text/css" />
@@ -36,6 +34,8 @@
     {{- template "_internal/google_news.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
+
+    <meta property="og:image" content="favicon.ico"/>
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
