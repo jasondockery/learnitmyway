@@ -22,6 +22,8 @@ In this article, I share a list of recommended resources that have helped me lea
 
 _In this article, I share a list of recommended resources that have helped me learn iOS development. _
 
+<!--more-->
+
 Before starting with the following resources you should have knowledge of computer science fundamentals. 
 I also had knowledge of Java before starting, which definitely helped.
 My recommendations can be found 
