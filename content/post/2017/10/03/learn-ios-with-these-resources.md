@@ -16,6 +16,10 @@ extraContent:
   title: "How to write a CV as a software developer", extras: "(CV included)"}
 
 ---
+In this article, I share a list of recommended resources that have helped me learn iOS development.
+
+<!--more--> 
+
 _In this article, I share a list of recommended resources that have helped me learn iOS development. _
 
 Before starting with the following resources you should have knowledge of computer science fundamentals. 
