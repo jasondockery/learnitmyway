@@ -1,5 +1,6 @@
 ---
 title: Articles
+description: Developer Davo's blog
 aliases:
     - /post
     - /posts
