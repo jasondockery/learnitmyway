@@ -1,0 +1,11 @@
+{
+  "name": "learnitmyway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DeveloperDavo/learnitmyway.git",
+  "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons": "^4.9.1"
+  }
+}
