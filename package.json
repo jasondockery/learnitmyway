@@ -5,7 +5,15 @@
   "repository": "https://github.com/DeveloperDavo/learnitmyway.git",
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "bundle-css": "postcss src/css/styles.css --use postcss-import -o static/dist/styles.css"
+  },
   "devDependencies": {
     "tachyons": "^4.9.1"
+  },
+  "dependencies": {
+    "postcss": "^6.0.17",
+    "postcss-cli": "^5.0.0",
+    "postcss-import": "^11.1.0"
   }
 }
