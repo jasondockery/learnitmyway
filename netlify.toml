@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run bundle-css && hugo"
+  command = "npm run build && hugo"
 
 [context.production.environment]
   HUGO_VERSION = "0.30.2"

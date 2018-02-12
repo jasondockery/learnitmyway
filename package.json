@@ -6,8 +6,7 @@
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "bundle-css": "postcss src/css/styles.css --use postcss-import --no-map -o static/dist/styles.css",
-    "minify": "postcss static/dist/styles.css > static/dist/styles.nano.css"
+    "build": "postcss src/css/styles.css > static/dist/styles.css"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
