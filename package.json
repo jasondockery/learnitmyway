@@ -6,7 +6,7 @@
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "bundle-css": "postcss src/css/styles.css --use postcss-import -o static/dist/styles.css"
+    "bundle-css": "postcss src/css/styles.css --use postcss-import --no-map  -o static/dist/styles.css"
   },
   "devDependencies": {
     "tachyons": "^4.9.1"
