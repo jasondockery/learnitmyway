@@ -6,7 +6,8 @@
   "author": "Developer Davo <DeveloperDavo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "postcss src/css/styles.css > static/dist/styles.css"
+    "build": "postcss src/css/styles.css -d static/dist/ styles.css",
+    "build:watch": "postcss src/css/styles.css -d static/dist/ styles.css -w"
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
