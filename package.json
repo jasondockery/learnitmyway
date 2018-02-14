@@ -9,7 +9,6 @@
     "build": "postcss src/css/styles.css > static/dist/styles.css"
   },
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
     "cssnano": "^3.10.0",
     "postcss": "^6.0.17",
     "postcss-cli": "^5.0.0",
