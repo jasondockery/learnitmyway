@@ -6,10 +6,9 @@
   HUGO_VERSION = "0.72.0"
   HUGO_ENV = "production"
   NODE_ENV = "production"
-  HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
-[context.staging.environment]
-  HUGO_BASEURL = "https://staging--learnitmyway.netlify.com/"
+[context.branch-deploy]
+  HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
 [context.production.environment]
   HUGO_BASEURL = "https://learnitmyway.com/"
