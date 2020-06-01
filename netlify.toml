@@ -1,6 +1,7 @@
 [build]
   publish = "public"
   command = "npm run build"
+  HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
 [build.environment]
   HUGO_VERSION = "0.72.0"
