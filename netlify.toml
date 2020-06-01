@@ -7,7 +7,7 @@
   HUGO_ENV = "production"
   NODE_ENV = "production"
 
-[context.*spike*.environment]
+[context.preview.environment]
   HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
 [context.production.environment]
