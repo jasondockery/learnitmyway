@@ -7,7 +7,7 @@
   HUGO_ENV = "production"
   NODE_ENV = "production"
 
-[context.branch-deploy.environment]
+[context.deploy-preview.environment]
   HUGO_BASEURL = "https://preview--learnitmyway.netlify.com/"
 
 [context.production.environment]
